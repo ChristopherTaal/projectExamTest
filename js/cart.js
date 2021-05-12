@@ -5,10 +5,10 @@ const newString = document.location.search;
 const urlParams = new URLSearchParams(newString);
 
 
-console.log(id);
 
-const urlPrice= "http://localhost:1337/products/" + id;
-console.log(urlPrice);
+
+        const urlPrice= "http://localhost:1337/products/" + id;
+
 
             async function getProduct() {
                 try{
@@ -26,7 +26,7 @@ console.log(urlPrice);
                 }
             }
             getProduct();
-            
+
             function  createPrice(cart){
                 priceContainer.innerHTML = `
                         <div class="product justify-content-center">
@@ -35,7 +35,7 @@ console.log(urlPrice);
                                 <div class="card" style="width: 18rem;">
                                     <div class="card-body">
                                         <h5 class="card-title">${cart.title}</h5>
-                                        <p class="card-text">${cart.description}</p>
+                                        <p class="card-text">${cart.price}</p>
                                     </div>
                                 </div>
                             </div>
