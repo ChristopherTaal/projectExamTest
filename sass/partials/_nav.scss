@@ -1,0 +1,20 @@
+.navbar{
+    background-color: black !important;
+    a{
+        color: white !important;
+        font-family: 'Ramabhadra', sans-serif;
+        font-size: 17px;
+    }
+    a.active{
+        color: #d90416 !important;
+    }
+    img{
+        width: 100px;
+    }
+    .d-flex button{
+        padding: 1px;
+    }
+    .navbar-toggler{
+        background-color: white !important;
+    }
+}

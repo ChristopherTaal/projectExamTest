@@ -1,0 +1,12 @@
+.filterContainer {
+    max-width: 1325px;
+    margin: 20px auto;
+    .search {
+        margin-left: 13px;
+        padding: 8px;
+    }
+}
+.filterContent {
+    display: flex;
+    flex-wrap: wrap;
+}

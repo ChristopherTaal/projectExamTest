@@ -1,0 +1,40 @@
+h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.product {
+  margin-top: 40px;
+  .card-body {
+    
+  button{
+    border: none;
+    display: flex; 
+    background-color: white;
+    }    
+  .btn {
+    background-color: black;
+    border: none;
+   }
+   .btn2{
+    margin-right: 10px;
+    background-color: #9acd32;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;  
+   }
+  button.hover{
+       background-color:white ;
+       a{
+        color: black;
+       }
+   }
+  a{
+      color: white;
+  }
+
+
+
+  }
+}
